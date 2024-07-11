@@ -84,15 +84,13 @@ body {
 /* FEED CONTAINER */
 
 .feed {
-/*     height: 100vh; */
+    /* height: 100vh */
     box-sizing: border-box;
     padding:  0 0% 0 4%;
     display: flex;
     align-items: flex-start;
     justify-content:center;
     gap: 65px;
-
-}
 
 }
 
@@ -115,12 +113,7 @@ body {
 
 
 .feed__post_container {
-    display: flex;
-/*     width: 100vh; */
-    /* align-items: center; */
-    /* justify-content: center; */
-/*     flex-direction: column; */
-/*     width: 100vh; */
+
     background-color: var(--cor-secundaria);
     border-width: 0.2em;
     border-radius: 1%;
