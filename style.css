@@ -124,7 +124,6 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.1em;
     margin-bottom: 2rem;
-    
     /* text-align-last: left; */
     
 
@@ -134,7 +133,10 @@ body {
     text-align: center;
     margin: 2rem 0 5rem 0;
     font-size: 1.9rem;
+    
+
 }
+
 .post p {
     margin: 2rem;
     font-size: 1.01rem;
@@ -191,49 +193,6 @@ h2 {
 .link__continuar:hover {
     color: var(--cor-hover);
 }
-
-/* Estilos específicos para index.php */
-body.index .feed__post_container {
-    height: 300px; /* Altura fixa para cada item do feed */
-    overflow: hidden; /* Oculta conteúdo extra que ultrapassa a altura */
-    margin-bottom: 20px; /* Espaçamento entre os itens */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #ccc; /* Borda para visualização */
-    position: relative; /* Para alinhar o link "Leia Mais" */
-}
-
-body.index .thumbnail {
-    margin-bottom: 10px; /* Espaçamento abaixo da thumbnail */
-}
-
-body.index .thumbnail img {
-    max-width: 100%; /* Imagem da thumbnail com largura máxima de 100% */
-    height: auto; /* Altura automática */
-}
-
-body.index .feed__post_titulo {
-    font-size: 1.5rem; /* Tamanho do título */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
-}
-
-body.index .post-content {
-    line-height: 1.5; /* Espaçamento entre linhas do conteúdo */
-}
-
-body.index .leia-mais {
-    position: absolute; /* Posiciona o link absolutamente */
-    bottom: 10px; /* Distância do rodapé */
-    right: 10px; /* Distância da direita */
-    background-color: #007bff; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 5px 10px; /* Espaçamento interno */
-    text-decoration: none; /* Remove sublinhado */
-}
-
-body.index .leia-mais:hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
-}
-
 
 /* LATERAL */
 
