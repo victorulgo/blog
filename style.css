@@ -124,11 +124,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.1em;
     margin-bottom: 2rem;
-    height: 300px; /* Altura fixa para cada item do feed */
-    overflow: hidden; /* Oculta conteúdo extra que ultrapassa a altura */
-    margin-bottom: 20px; /* Espaçamento entre os itens */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #ccc; /* Borda para visualização */
+    
     /* text-align-last: left; */
     
 
@@ -138,23 +134,6 @@ body {
     text-align: center;
     margin: 2rem 0 5rem 0;
     font-size: 1.9rem;
-    font-size: 1.5rem; /* Tamanho do título */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
-    
-
-}
-.post-content {
-    line-height: 1.5; /* Espaçamento entre linhas do conteúdo */
-}
-.leia-mais {
-    display: inline-block; /* Torna o link um bloco */
-    margin-top: 10px; /* Espaçamento acima do link */
-    color: #007bff; /* Cor do link */
-    text-decoration: none; /* Remove sublinhado */
-}
-
-.leia-mais:hover {
-    text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
 .post p {
     margin: 2rem;
