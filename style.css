@@ -97,36 +97,47 @@ body {
 
 /* FEED POST */
 
+/* Estilos para a estrutura do feed de posts */
 .feed__container {
     display: flex;
-    width: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-   
-    /* vertical-align: text-top; */
-    
-    
-    /* text-align: center; */
-}    
+    flex-wrap: wrap;
+    gap: 16px; /* Espaçamento entre os posts */
+}
 
-
-
+/* Estilos para cada post */
 .feed__post_container {
+    flex: 1 1 calc(50% - 16px); /* Divide em duas colunas, com margens entre elas */
+    max-width: calc(50% - 16px); /* Largura máxima de cada post */
+    margin-bottom: 16px; /* Espaçamento entre os posts */
+}
 
-    background-color: var(--cor-secundaria);
-    border-width: 0.2em;
-    border-radius: 1%;
-    border-color: var(--cor-borda-post);
-    border-style: solid;
-    margin: 1em;
-    padding: 0 4% 4% 4%;
-    font-family: var(--fonte-secundaria);
-    font-size: 1.1em;
-    margin-bottom: 2rem;
-    /* text-align-last: left; */
-    
+/* Estilos para o título do post */
+.post-title {
+    margin-bottom: 16px; /* Espaçamento abaixo do título */
+}
 
+/* Estilos para o conteúdo do post na página inicial */
+.post-excerpt {
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 16px; /* Espaçamento abaixo do resumo */
+}
+
+/* Estilos para a imagem destacada */
+.post-thumbnail {
+    margin-bottom: 16px; /* Espaçamento abaixo da imagem */
+}
+
+/* Estilos para a imagem destacada responsiva */
+.full-width-thumbnail {
+    width: 100%; /* Imagem ocupa toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras ao redor da imagem */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilos para o conteúdo completo do post */
+.post-content-full {
+    text-align: justify; /* Justifica o texto */
 }
 
 .feed__post_titulo {
