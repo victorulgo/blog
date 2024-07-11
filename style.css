@@ -113,7 +113,7 @@ body {
 
 
 .feed__post_container {
-
+    width: 100vh;
     background-color: var(--cor-secundaria);
     border-width: 0.2em;
     border-radius: 1%;
